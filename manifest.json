@@ -1,0 +1,12 @@
+{
+  "name": "TrustRadar",
+  "appid": "__UNI__TRUSTRADAR",
+  "description": "All-in-One OSINT & Threat Investigation Platform",
+  "versionName": "3.0.0-alpha.7",
+  "versionCode": 30005,
+  "transformPx": false,
+  "h5": {
+    "title": "TrustRadar",
+    "template": "index.html"
+  }
+}

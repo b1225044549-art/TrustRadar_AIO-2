@@ -1,0 +1,250 @@
+TAP version 13
+# Subtest: detects supported indicator formats conservatively
+ok 1 - detects supported indicator formats conservatively
+  ---
+  duration_ms: 1.629447
+  type: 'test'
+  ...
+# Subtest: rejects unsupported schemes and embedded URL credentials
+ok 2 - rejects unsupported schemes and embedded URL credentials
+  ---
+  duration_ms: 0.189044
+  type: 'test'
+  ...
+# Subtest: rejects empty and oversized inputs
+ok 3 - rejects empty and oversized inputs
+  ---
+  duration_ms: 0.165038
+  type: 'test'
+  ...
+# Subtest: analysis never invents a reputation score
+ok 4 - analysis never invents a reputation score
+  ---
+  duration_ms: 0.549115
+  type: 'test'
+  ...
+# Subtest: URL analysis states that no destination request was sent
+ok 5 - URL analysis states that no destination request was sent
+  ---
+  duration_ms: 0.489385
+  type: 'test'
+  ...
+# Subtest: case workspace is reachable from desktop and mobile navigation
+ok 6 - case workspace is reachable from desktop and mobile navigation
+  ---
+  duration_ms: 0.918099
+  type: 'test'
+  ...
+# Subtest: case workspace exposes evidence, observation, note and timeline views
+ok 7 - case workspace exposes evidence, observation, note and timeline views
+  ---
+  duration_ms: 0.168584
+  type: 'test'
+  ...
+# Subtest: demo mode prevents case edits from mixing simulated and local records
+ok 8 - demo mode prevents case edits from mixing simulated and local records
+  ---
+  duration_ms: 0.105238
+  type: 'test'
+  ...
+# Subtest: case observation UI includes an evidence link control and explicit epistemic labels
+ok 9 - case observation UI includes an evidence link control and explicit epistemic labels
+  ---
+  duration_ms: 0.256015
+  type: 'test'
+  ...
+# Subtest: relationship records are visibly labelled as analyst assertions
+ok 10 - relationship records are visibly labelled as analyst assertions
+  ---
+  duration_ms: 0.104567
+  type: 'test'
+  ...
+# Subtest: demo catalog exposes four distinct scenarios
+ok 11 - demo catalog exposes four distinct scenarios
+  ---
+  duration_ms: 1.505411
+  type: 'test'
+  ...
+# Subtest: every demo record is visibly marked as simulated
+ok 12 - every demo record is visibly marked as simulated
+  ---
+  duration_ms: 2.832174
+  type: 'test'
+  ...
+# Subtest: unknown demo scenario falls back safely to domain scenario
+ok 13 - unknown demo scenario falls back safely to domain scenario
+  ---
+  duration_ms: 0.986282
+  type: 'test'
+  ...
+# Subtest: demo fixtures use reserved example domains
+ok 14 - demo fixtures use reserved example domains
+  ---
+  duration_ms: 0.76551
+  type: 'test'
+  ...
+# Subtest: expanded inventory is available in all four scenarios
+ok 15 - expanded inventory is available in all four scenarios
+  ---
+  duration_ms: 1.976428
+  type: 'test'
+  ...
+# Subtest: expanded fixtures use reserved domains and documentation-only IP space
+ok 16 - expanded fixtures use reserved domains and documentation-only IP space
+  ---
+  duration_ms: 0.655134
+  type: 'test'
+  ...
+# Subtest: fixtures are deep-copied and limitations remain explicit
+ok 17 - fixtures are deep-copied and limitations remain explicit
+  ---
+  duration_ms: 1.528095
+  type: 'test'
+  ...
+# Subtest: all expanded inventory records are labelled as synthetic
+ok 18 - all expanded inventory records are labelled as synthetic
+  ---
+  duration_ms: 0.6987
+  type: 'test'
+  ...
+# Subtest: synthetic relationships use distinct entity endpoints
+ok 19 - synthetic relationships use distinct entity endpoints
+  ---
+  duration_ms: 1.026391
+  type: 'test'
+  ...
+# Subtest: supports the five product locales and falls back safely
+ok 20 - supports the five product locales and falls back safely
+  ---
+  duration_ms: 1.139611
+  type: 'test'
+  ...
+# Subtest: Arabic is RTL and the other supported locales are LTR
+ok 21 - Arabic is RTL and the other supported locales are LTR
+  ---
+  duration_ms: 0.137616
+  type: 'test'
+  ...
+# Subtest: core navigation labels exist in all five locales
+ok 22 - core navigation labels exist in all five locales
+  ---
+  duration_ms: 0.254442
+  type: 'test'
+  ...
+# Subtest: language preference persists through the supplied storage adapter
+ok 23 - language preference persists through the supplied storage adapter
+  ---
+  duration_ms: 0.426771
+  type: 'test'
+  ...
+# Subtest: invalid language values are normalized before persistence
+ok 24 - invalid language values are normalized before persistence
+  ---
+  duration_ms: 0.140561
+  type: 'test'
+  ...
+# Subtest: creates a clean case and rejects empty titles
+ok 25 - creates a clean case and rejects empty titles
+  ---
+  duration_ms: 1.456557
+  type: 'test'
+  ...
+# Subtest: evidence validates source URLs and records provenance limitations
+ok 26 - evidence validates source URLs and records provenance limitations
+  ---
+  duration_ms: 1.147594
+  type: 'test'
+  ...
+# Subtest: observed facts require linked evidence; interpretations remain explicitly labelled
+ok 27 - observed facts require linked evidence; interpretations remain explicitly labelled
+  ---
+  duration_ms: 0.415223
+  type: 'test'
+  ...
+# Subtest: relationships require distinct endpoints and an explicit basis
+ok 28 - relationships require distinct endpoints and an explicit basis
+  ---
+  duration_ms: 0.247982
+  type: 'test'
+  ...
+# Subtest: notes, status transitions and summary remain transparent
+ok 29 - notes, status transitions and summary remain transparent
+  ---
+  duration_ms: 0.278107
+  type: 'test'
+  ...
+# Subtest: store validates schema and fails closed on corrupt or unsupported data
+ok 30 - store validates schema and fails closed on corrupt or unsupported data
+  ---
+  duration_ms: 0.45912
+  type: 'test'
+  ...
+# Subtest: theme preference is constrained and defaults safely to dark
+ok 31 - theme preference is constrained and defaults safely to dark
+  ---
+  duration_ms: 0.599851
+  type: 'test'
+  ...
+# Subtest: theme preference persists through the storage adapter
+ok 32 - theme preference persists through the storage adapter
+  ---
+  duration_ms: 0.629065
+  type: 'test'
+  ...
+# Subtest: locale formatters return stable values and safely handle invalid input
+ok 33 - locale formatters return stable values and safely handle invalid input
+  ---
+  duration_ms: 16.675125
+  type: 'test'
+  ...
+# Subtest: mobile navigation includes a direct settings entry
+ok 34 - mobile navigation includes a direct settings entry
+  ---
+  duration_ms: 0.643647
+  type: 'test'
+  ...
+# Subtest: keyboard focus has a visible treatment
+ok 35 - keyboard focus has a visible treatment
+  ---
+  duration_ms: 0.156645
+  type: 'test'
+  ...
+# Subtest: reduced-motion preference is respected
+ok 36 - reduced-motion preference is respected
+  ---
+  duration_ms: 0.797668
+  type: 'test'
+  ...
+# Subtest: mobile inputs use a readable text size and safe-area spacing
+ok 37 - mobile inputs use a readable text size and safe-area spacing
+  ---
+  duration_ms: 0.212539
+  type: 'test'
+  ...
+# Subtest: visible version metadata consistently identifies alpha.6
+ok 38 - visible version metadata consistently identifies alpha.6
+  ---
+  duration_ms: 0.390948
+  type: 'test'
+  ...
+# Subtest: dashboard uses accurate labels for locally saved indicators and device data
+ok 39 - dashboard uses accurate labels for locally saved indicators and device data
+  ---
+  duration_ms: 0.125058
+  type: 'test'
+  ...
+# Subtest: mobile metadata labels receive a readability floor
+ok 40 - mobile metadata labels receive a readability floor
+  ---
+  duration_ms: 0.244377
+  type: 'test'
+  ...
+1..40
+# tests 40
+# suites 0
+# pass 40
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 390.513551

@@ -1,0 +1,283 @@
+PASS utils/analyzer.js
+PASS utils/demo.js
+PASS utils/i18n.js
+PASS utils/investigations.js
+PASS utils/preferences.js
+PASS utils/storage.js
+PASS tests/analyzer.test.js
+PASS tests/case-workspace-ui.test.js
+PASS tests/demo.test.js
+PASS tests/i18n.test.js
+PASS tests/investigations.test.js
+PASS tests/preferences.test.js
+PASS tests/release-metadata.test.js
+PASS tests/ux-baseline.test.js
+PASS scripts/check-syntax.mjs
+
+Syntax check passed for 15 JavaScript files.
+TAP version 13
+# Subtest: detects supported indicator formats conservatively
+ok 1 - detects supported indicator formats conservatively
+  ---
+  duration_ms: 4.70513
+  type: 'test'
+  ...
+# Subtest: rejects unsupported schemes and embedded URL credentials
+ok 2 - rejects unsupported schemes and embedded URL credentials
+  ---
+  duration_ms: 0.372577
+  type: 'test'
+  ...
+# Subtest: rejects empty and oversized inputs
+ok 3 - rejects empty and oversized inputs
+  ---
+  duration_ms: 0.421959
+  type: 'test'
+  ...
+# Subtest: analysis never invents a reputation score
+ok 4 - analysis never invents a reputation score
+  ---
+  duration_ms: 0.953541
+  type: 'test'
+  ...
+# Subtest: URL analysis states that no destination request was sent
+ok 5 - URL analysis states that no destination request was sent
+  ---
+  duration_ms: 0.580252
+  type: 'test'
+  ...
+# Subtest: case workspace is reachable from desktop and mobile navigation
+ok 6 - case workspace is reachable from desktop and mobile navigation
+  ---
+  duration_ms: 0.916875
+  type: 'test'
+  ...
+# Subtest: case workspace exposes evidence, observation, note and timeline views
+ok 7 - case workspace exposes evidence, observation, note and timeline views
+  ---
+  duration_ms: 0.230941
+  type: 'test'
+  ...
+# Subtest: demo mode prevents case edits from mixing simulated and local records
+ok 8 - demo mode prevents case edits from mixing simulated and local records
+  ---
+  duration_ms: 0.258757
+  type: 'test'
+  ...
+# Subtest: case observation UI includes an evidence link control and explicit epistemic labels
+ok 9 - case observation UI includes an evidence link control and explicit epistemic labels
+  ---
+  duration_ms: 0.298534
+  type: 'test'
+  ...
+# Subtest: relationship records are visibly labelled as analyst assertions
+ok 10 - relationship records are visibly labelled as analyst assertions
+  ---
+  duration_ms: 0.127271
+  type: 'test'
+  ...
+# Subtest: demo catalog exposes four distinct scenarios
+ok 11 - demo catalog exposes four distinct scenarios
+  ---
+  duration_ms: 1.545245
+  type: 'test'
+  ...
+# Subtest: every demo record is visibly marked as simulated
+ok 12 - every demo record is visibly marked as simulated
+  ---
+  duration_ms: 6.458202
+  type: 'test'
+  ...
+# Subtest: unknown demo scenario falls back safely to domain scenario
+ok 13 - unknown demo scenario falls back safely to domain scenario
+  ---
+  duration_ms: 1.224545
+  type: 'test'
+  ...
+# Subtest: demo fixtures use reserved example domains
+ok 14 - demo fixtures use reserved example domains
+  ---
+  duration_ms: 1.716458
+  type: 'test'
+  ...
+# Subtest: expanded inventory is available in all four scenarios
+ok 15 - expanded inventory is available in all four scenarios
+  ---
+  duration_ms: 2.97795
+  type: 'test'
+  ...
+# Subtest: expanded fixtures use reserved domains and documentation-only IP space
+ok 16 - expanded fixtures use reserved domains and documentation-only IP space
+  ---
+  duration_ms: 1.337903
+  type: 'test'
+  ...
+# Subtest: fixtures are deep-copied and limitations remain explicit
+ok 17 - fixtures are deep-copied and limitations remain explicit
+  ---
+  duration_ms: 2.123677
+  type: 'test'
+  ...
+# Subtest: all expanded inventory records are labelled as synthetic
+ok 18 - all expanded inventory records are labelled as synthetic
+  ---
+  duration_ms: 0.866662
+  type: 'test'
+  ...
+# Subtest: synthetic relationships use distinct entity endpoints
+ok 19 - synthetic relationships use distinct entity endpoints
+  ---
+  duration_ms: 1.195496
+  type: 'test'
+  ...
+# Subtest: supports the five product locales and falls back safely
+ok 20 - supports the five product locales and falls back safely
+  ---
+  duration_ms: 1.694245
+  type: 'test'
+  ...
+# Subtest: Arabic is RTL and the other supported locales are LTR
+ok 21 - Arabic is RTL and the other supported locales are LTR
+  ---
+  duration_ms: 0.17045
+  type: 'test'
+  ...
+# Subtest: core navigation labels exist in all five locales
+ok 22 - core navigation labels exist in all five locales
+  ---
+  duration_ms: 0.34208
+  type: 'test'
+  ...
+# Subtest: language preference persists through the supplied storage adapter
+ok 23 - language preference persists through the supplied storage adapter
+  ---
+  duration_ms: 0.53964
+  type: 'test'
+  ...
+# Subtest: invalid language values are normalized before persistence
+ok 24 - invalid language values are normalized before persistence
+  ---
+  duration_ms: 0.148887
+  type: 'test'
+  ...
+# Subtest: creates a clean case and rejects empty titles
+ok 25 - creates a clean case and rejects empty titles
+  ---
+  duration_ms: 2.544958
+  type: 'test'
+  ...
+# Subtest: evidence validates source URLs and records provenance limitations
+ok 26 - evidence validates source URLs and records provenance limitations
+  ---
+  duration_ms: 1.528262
+  type: 'test'
+  ...
+# Subtest: observed facts require linked evidence; interpretations remain explicitly labelled
+ok 27 - observed facts require linked evidence; interpretations remain explicitly labelled
+  ---
+  duration_ms: 0.443543
+  type: 'test'
+  ...
+# Subtest: relationships require distinct endpoints and an explicit basis
+ok 28 - relationships require distinct endpoints and an explicit basis
+  ---
+  duration_ms: 0.725719
+  type: 'test'
+  ...
+# Subtest: notes, status transitions and summary remain transparent
+ok 29 - notes, status transitions and summary remain transparent
+  ---
+  duration_ms: 0.728232
+  type: 'test'
+  ...
+# Subtest: store validates schema and fails closed on corrupt or unsupported data
+ok 30 - store validates schema and fails closed on corrupt or unsupported data
+  ---
+  duration_ms: 0.496351
+  type: 'test'
+  ...
+# Subtest: theme preference is constrained and defaults safely to dark
+ok 31 - theme preference is constrained and defaults safely to dark
+  ---
+  duration_ms: 2.006847
+  type: 'test'
+  ...
+# Subtest: theme preference persists through the storage adapter
+ok 32 - theme preference persists through the storage adapter
+  ---
+  duration_ms: 1.60013
+  type: 'test'
+  ...
+# Subtest: locale formatters return stable values and safely handle invalid input
+ok 33 - locale formatters return stable values and safely handle invalid input
+  ---
+  duration_ms: 29.335621
+  type: 'test'
+  ...
+# Subtest: visible workspace metadata does not contain stale alpha.5 branding
+ok 34 - visible workspace metadata does not contain stale alpha.5 branding
+  ---
+  duration_ms: 1.396754
+  type: 'test'
+  ...
+# Subtest: release metadata and locale documentation agree on alpha.6 and five locale foundations
+ok 35 - release metadata and locale documentation agree on alpha.6 and five locale foundations
+  ---
+  duration_ms: 0.235708
+  type: 'test'
+  ...
+# Subtest: mobile navigation includes a direct settings entry
+ok 36 - mobile navigation includes a direct settings entry
+  ---
+  duration_ms: 1.474232
+  type: 'test'
+  ...
+# Subtest: keyboard focus has a visible treatment
+ok 37 - keyboard focus has a visible treatment
+  ---
+  duration_ms: 0.426738
+  type: 'test'
+  ...
+# Subtest: reduced-motion preference is respected
+ok 38 - reduced-motion preference is respected
+  ---
+  duration_ms: 1.107709
+  type: 'test'
+  ...
+# Subtest: mobile inputs use a readable text size and safe-area spacing
+ok 39 - mobile inputs use a readable text size and safe-area spacing
+  ---
+  duration_ms: 0.242169
+  type: 'test'
+  ...
+# Subtest: visible version metadata consistently identifies alpha.6
+ok 40 - visible version metadata consistently identifies alpha.6
+  ---
+  duration_ms: 0.664602
+  type: 'test'
+  ...
+# Subtest: dashboard uses accurate labels for locally saved indicators and device data
+ok 41 - dashboard uses accurate labels for locally saved indicators and device data
+  ---
+  duration_ms: 0.190191
+  type: 'test'
+  ...
+# Subtest: mobile metadata labels receive a readability floor
+ok 42 - mobile metadata labels receive a readability floor
+  ---
+  duration_ms: 0.292391
+  type: 'test'
+  ...
+1..42
+# tests 42
+# suites 0
+# pass 42
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 627.418534
+
+H5 production build: NOT RUN (dependency install unavailable in this environment).
+Android build/device QA: NOT RUN.
+Visual QA: NOT RUN.
